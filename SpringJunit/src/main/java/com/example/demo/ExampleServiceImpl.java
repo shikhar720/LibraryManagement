@@ -8,7 +8,7 @@ public class ExampleServiceImpl {
 
 	@Autowired
 	ExampleRepositoryImpl exampleRepository;
-
+   //Something doing
 	public String get() {
 		return exampleRepository.get();
 	}
